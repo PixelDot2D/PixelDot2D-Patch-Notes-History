@@ -37,7 +37,7 @@ Full Patch Note Histroy for the Framework.
 - **Global Standardization:** Moved `Enum_PlatformerFacingDirection` to Core and renamed it to `Enum_SideScrollerFacingDirection` for universal use.
 - **Updated Layer Naming Convention:** `Pushable` is now `Interactable`.
 
-### NEW - Modular Character Sub-Library
+### NEW Modular Character Sub-Library
 
 Built for entities requiring real-time evolution, mutation, and complete runtime restructuring. The framework enforces atomic control over individual behaviors—enabling developers to seamlessly inject, hot-swap, or strip character logic on the fly across any genre utilizing a standard 2D physics plane, including side-scrollers, 2.5D hybrids, top-down shooters, space simulators, and more.
 
