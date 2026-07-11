@@ -1,5 +1,5 @@
 # PixelDot2D Core Framework Patch Notes History
-Full Patch Note History for the Framework.
+Full Patch Note History for PixelDot2D Core Framework.
 
 **Available on the:** [Unity Asset Store](https://assetstore.unity.com/packages/tools/utilities/pixeldot2d-core-framework-370674)
 
