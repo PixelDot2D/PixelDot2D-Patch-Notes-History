@@ -11,7 +11,7 @@ Full Patch Note History for PixelDot2D Core Framework.
 
 - [Patch 2.0](#patch-20)
   - [Core Updates](#core-updates-patch-2-0)
-  - [Combat Sub-Library](#combat-updates-patch-2-0)
+  - [Combat Sub-Library](#combat-sub-library-patch-2-0)
   - [Platformer Sub-Library](#platformer-updates-patch-2-0)
   - [Modular Character Sub-Library](#modularCharacter-updates-patch-2-0)
 
@@ -61,7 +61,7 @@ Full Patch Note History for PixelDot2D Core Framework.
 - **Zero-GC Spatial Sensor Module:** Integrated a centralized suite of high-performance spatial sensor utilities supporting Box, Circle, Capsule, and Line casts. These standardized sensors drive environmental awareness across all sub-libraries with zero runtime allocation overhead and integrated Editor Debug Visuals. Following the framework's strict rule of open extensibility, the sensor module is fully architected to support expansion into custom shapes.
 - **Coordinate Virtualization (RB2D Mover):** Refactored the core movement solver to utilize an internal Basis Mapping system. Objects can now define their own local coordinate space (Right/Up vectors) independently of Unity’s Transform component. This allows entities to handle complex, genre-specific movement behaviors, such as 2D side-scrolling sprite flips, via external vector injection without altering physical GameObject orientation or breaking mathematical calculations.
 
-### Combat Sub-Library <a name="combat-updates-patch-2-0"></a>
+### Combat Sub-Library <a name="combat-sub-library-patch-2-0"></a>
 
 - **New Execution Types:** Added Box and Capsule casting for virtual weapon execution.
 - **Optimized Native Physics Execution:** Projectiles have been completely decoupled from traditional Collider2D components. All spatial detection now utilizes direct native C++ calls via `Physics2D.Cast` (supporting Box, Capsule, and Circle shapes). This bypasses the overhead of Unity’s internal physics solver for maximum performance.
